@@ -116,7 +116,7 @@
     justify-content: center;
     align-items: center;
 }
-#fig12, #fig13, #fig14, #fig15, #fig16, #fig17, #fig18, #fig19, #fig20, #fig21, #fig22, #fig23, #fig24, #fig25, #fig26, #fig27 {
+#fig12, #fig13, #fig14, #fig15, #fig16, #fig17, #fig18, #fig19, #fig20, #fig21, #fig22, #fig23, #fig24, #fig25, #fig26, #fig27, #fig28, #fig29, #fig30, #fig31, #fig24, #fig32, #fig33, #fig34, #fig35 {
     width: 60px;
     height: 60px;
     border: 3px solid blue;
@@ -136,6 +136,7 @@ input[type=text]{
     height:50px;
     /* margin-top:20px; */
     color: black;
+
 }
 button{
     width:50px;
@@ -146,7 +147,7 @@ form{
     font-family: "Dimbo Regular";
     font-size: 120%;
     color: black;
-    margin-top: -100px;
+    margin-top:-150px;
     
 }
 input{

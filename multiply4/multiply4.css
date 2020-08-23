@@ -18,14 +18,15 @@
     display:flex;
     justify-content: center;
     font-family: "Dimbo Regular";
-    font-size: 450%;
+    font-size: 350%;
+    margin-top: -10px;
 }
     p{
     display:flex;
     justify-content: center;
     font-family: "Dimbo Regular";
-    font-size: 250%;
-    margin-top: -2.5%;
+    font-size: 200%;
+    margin-top: -3%;
     /* padding-top:40px; */
 
   }
@@ -63,51 +64,14 @@
       width:90px;
       padding:5px;
   }
-  /* .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1.1fr 0.6fr 1.3fr 1fr;
-    grid-template-rows: 1fr 0.5fr 1.5fr 1fr;
-    gap: 1px 1px;
-    grid-template-areas: 
-    ". . . . ." 
-    ". . a . ." 
-    ". . b . ." 
-    ". . c . .";
-  } */
-  /* .second-drops{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    /* padding:5px; */
-/* }
-  #drops{
-      display:flex;
-      flex-direction:row;
-      justify-content: center;
-      align-items: center;
-  }
-
-/* .first-drops{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center; */
-    /* padding:5px; */
-/* } */
-/* 
-#first2,#third2{
-    margin-bottom:10px;
-}
-#second2,#fourth2{
-    margin-top:10px; */
-/* } */
+  
 .drag{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     margin-top:-10px;
+    margin-bottom: 5px;
     /* padding:15px; */
 }
 #drops{
@@ -115,8 +79,9 @@
     flex-direction:row;
     justify-content: center;
     align-items: center;
+    margin-top: -2%;
 }
-#fig12, #fig13, #fig14, #fig15, #fig16, #fig17, #fig18, #fig19, #fig20, #fig21, #fig22, #fig23, #fig24, #fig25, #fig26, #fig27 {
+#fig12, #fig13, #fig14, #fig15, #fig16, #fig17, #fig18, #fig19, #fig20, #fig21, #fig22, #fig23, #fig24, #fig25, #fig26, #fig27, #fig28, #fig29, #fig30, #fig31, #fig24, #fig32, #fig33, #fig34, #fig35, #fig36 {
     width: 60px;
     height: 60px;
     border: 3px solid blue;
@@ -136,6 +101,7 @@ input[type=text]{
     height:50px;
     /* margin-top:20px; */
     color: black;
+
 }
 button{
     width:50px;
@@ -146,7 +112,7 @@ form{
     font-family: "Dimbo Regular";
     font-size: 120%;
     color: black;
-    margin-top: -100px;
+    margin-top:-200px;
     
 }
 input{
@@ -154,74 +120,7 @@ input{
     font-size: 120%;
     background-color: #00FFFF;
 }
-/* input[type=submit]{
-    font-family: "Dimbo Regular";
-} */
-/* } {
-    width: 60px;
-    height: 60px;
-    border: 3px solid blue;
-    padding: 5px;
-    margin:5px; */
-    /* background-color: #00FFFF; */
-/* }
-#fig16, #fig17, #fig18, #fig19 {
-    width: 60px;
-    height: 60px;
-    border: 3px solid blue;
-    padding: 5px;
-    margin:5px;
 
-} */
-/* .eight{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-} */ 
-
-/* .seven-drops{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.four-drops{
-    display: flex;
-    flex-wrap: column;
-    justify-content: center;
-    align-items: center;
-}
-#fig15, #fig16, #fig17, #fig18 {
-    width: 60px;
-    height: 60px;
-    border: 3px solid blue;
-    padding: 5px;
-    margin:5px;
-    background-color: #00FFFF; */
-/* } */
-/* #fig16{
-    width: 60px;
-    height: 60px;
-    border: 3px solid blue;
-    margin-top:50px;
-    background-color:#00FFFF;
-} */
-
-/* #fig13, #fig15 {
-    width: 60px;
-    height: 60px;
-    border: 3px solid blue;
-    margin-top:50px;
-    background-color:#00FFFF;
-}  */
-/* #fig1, #fig3{
-    border: 2px black;
-    border-style: dashed;
-    border-radius: 50px;
-    background-color:white;
-    width:70px;
-    height:70px;
-} */
 .home-button{
     position: fixed;
     top:10px;

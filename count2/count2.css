@@ -57,7 +57,7 @@
   .drop{
       height:80px;
       width:85px;
-      /* padding:5px; */
+      margin-left: 25px;
   }
   /* .grid-container {
     display: grid;
